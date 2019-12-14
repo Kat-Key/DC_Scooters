@@ -11,7 +11,7 @@ Starting November 14, 2019, I began calling the following Dockless Vehicle APIs 
 *	Lime - https://lime.bike/api/partners/v1/gbfs/free_bike_status.json
 *	Lyft - https://s3.amazonaws.com/lyft-lastmile-production-iad/lbs/dca/free_bike_status.json
 *	Skip - https://us-central1-waybots-production.cloudfunctions.net/ddotApi-dcFreeBikeStatus
-•*	Spin - https://web.spin.pm/api/gbfs/v1/washington_dc/free_bike_status
+*	Spin - https://web.spin.pm/api/gbfs/v1/washington_dc/free_bike_status
 
 My analysis focuses primary in scooters, so I did not include Jump Bikes or Capital Bikeshare information. I also had problems with the Razor API so I left it out. 
 
