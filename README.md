@@ -1,7 +1,7 @@
 # DC_Scooters
 For a final project in URPL-GP-1620 - Spatial Analysis and Visualization at NYU Wagner, I decided to explore DC Scooters. Due to the lack of available dataset, I created my own by calling the Dockless Vehicle APIs (available at https://ddot.dc.gov/page/dockless-api) five times a day for about a week. 
 
-This documentation will primarily discuss how I created “dc_scooter_data.csv,” but I have also uploaded the dataset with DC Ward location.  
+This documentation will primarily discuss how I created “dc_scooter_data.csv,” but I have also uploaded the dataset with DC Ward location added.  
 
 ## Data Gathering Process
 Starting November 14, 2019, I began calling the following Dockless Vehicle APIs and downloading the returned json file:
