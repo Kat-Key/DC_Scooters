@@ -25,7 +25,10 @@ From November 16th – November 22nd, I consistently downloaded the free_bike_st
 These times are approximations as I was downloading manually, but all were called within three minutes of the recorded time. On December 14th and 15th I did not download at consistent times. I have not filtered these days out however, because they may prove useful for some analysis. 
 
 ## Dates
-All dates have been set to an ISO 8601 format, but due to issues with the times when uploaded to rstudio, I did not set the timezone. All data was downloaded post day light saving time in EST. 
+All dates have been set to an ISO 8601 format, but due to issues with the times when uploaded to rstudio, I did not set the timezone. All data was downloaded post day light saving time in EST.
+
+## What *is* this data?
+Each company's public dockless API returns a free_bike_status.json that includes the location of all available vehicles at that moment. This data does not let us know how many vehicles are in use, and the bike_id is randomized ever time the API is called in order to protect customer privacy. This dataset is effectively a time capsule of where dockless scooters from seven companies were located at five different times throughout the day over approximately 8 days. 
 
 ## DC Ward Location
 Using QGIS I joined the dc_scooter_data.csv and the Ward from 2012 dataset (found [here](https://opendata.dc.gov/datasets/ward-from-2012)). The Ward data comes with a lot of attributes beyond the name and was difficult to upload to analyze. I slimmed the initial data to just include the bike ID, latitude, longitude, company name, date and time, ward name, and ward number. This data is published as “dc_scooter_data_ward_slim.csv.” 
